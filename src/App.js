@@ -38,7 +38,7 @@ class App extends React.Component {
   render(){
     return (
       <Router>
-        <Container className="p-0" fuild={true}>
+        <Container className="p-0" fluid={true}>
           
           <Navbar className="border-bottom" bg="transparent" expand="lg">
             <Navbar.Brand>Jonathan Palma</Navbar.Brand>
@@ -55,12 +55,12 @@ class App extends React.Component {
           
           <Route path="/" exact render={() => <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} bodyText={this.state.home.bodyText} /> } />
           <Route path="/about" render={() => <AboutPage title={this.state.about.title} /> } />
-          <Route path="/contact" exact render={() => <ContactPage title={this.state.contact.title} /> } />
+          <Route path="/contact" render={() => <ContactPage title={this.state.contact.title} /> } />
 
           <Footer />
         </Container>
       </Router>
-  );
+    );
   }
 }
 

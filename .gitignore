@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/portfolio-api/sendgrid.env
+/portfolio-api/node_modules

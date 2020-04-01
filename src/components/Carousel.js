@@ -1,10 +1,10 @@
 import React from 'react';
 import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
 
 import Card from './Card';
 import pp from '../assets/images/pp.png';
 import chess from '../assets/images/chess.png';
-import Container from 'react-bootstrap/Container';
 
 class Carousel extends React.Component {
 
@@ -35,7 +35,8 @@ class Carousel extends React.Component {
   handleCardClick = (id, card) => {
     let items = [...this.state.items];
 
-    items[id].selected = items[id].selected ? false : true
+    items[id].selected = items[id].selected ? false : true;
+    
     items.forEach(item => {
       if(item.id !== id){
         item.selected = false;
