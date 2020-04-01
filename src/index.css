@@ -12,6 +12,12 @@ code {
     monospace;
 }
 
+p {
+  line-height: 30px;   
+  margin-bottom: 25px;
+  text-indent: 50px;
+  }
+
 .j-card {
   margin: 20px;
 }
@@ -36,4 +42,8 @@ code {
 .j-card-sub-title {
   font-size: 16px;
   margin: 0px;
+}
+
+.j-dot:before {
+  content: "• ";
 }
