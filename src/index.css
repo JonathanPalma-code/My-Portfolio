@@ -12,7 +12,7 @@ code {
     monospace;
 }
 
-p {
+.p2 {
   line-height: 30px;   
   margin-bottom: 25px;
   text-indent: 50px;
@@ -46,4 +46,14 @@ p {
 
 .j-dot:before {
   content: "• ";
+}
+
+.success-msg {
+  color: #57A773;
+  padding: 10px 15px;
+}
+
+.error-msg {
+  color: #EE6352;
+  padding: 10px 15px;
 }
