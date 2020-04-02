@@ -3,6 +3,7 @@ import { Form, Button } from 'react-bootstrap';
 
 import Hero from '../components/Hero';
 import Content from '../components/Content';
+
 import Axios from 'axios';
 
 class ContactPage extends React.Component {

@@ -9,6 +9,8 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
+import Linkedin from './assets/images/linkedin.png';
+import GitHub from './assets/images/github.jpeg';
 
 class App extends React.Component {
 
@@ -41,7 +43,12 @@ class App extends React.Component {
         <Container className="p-0" fluid={true}>
           
           <Navbar className="border-bottom" bg="transparent" expand="lg">
-            <Navbar.Brand>Jonathan Palma</Navbar.Brand>
+            <Navbar.Brand>Jonathan Palma
+              <a href="https://www.linkedin.com/in/jonathan-palma-096a65112/">
+                <img className="p-fluid" src={Linkedin} alt="LinkedIn" /></a>
+              <a href="https://github.com/JonathanPalma-code/">
+                <img className="p-fluid2" src={GitHub} alt="GitHub" /></a>
+            </Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
             <Navbar.Collapse id="navbar-toggle">
