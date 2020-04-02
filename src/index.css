@@ -57,3 +57,14 @@ code {
   color: #EE6352;
   padding: 10px 15px;
 }
+
+.start .Photo {
+  position: absolute;
+  background-position: 10%;
+  width: 425px;
+  height: 635px;
+  top: 0%;
+  right: 22%;
+  opacity: 0.3;
+  margin: -200px;
+}
