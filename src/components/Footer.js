@@ -12,7 +12,7 @@ function Footer(){
             Jonathan Palma
           </Col>
           <Col className="p-0 d-flex justify-content-end" md={4}>
-            This website was made by Jonathan Palma
+            This website was made by: Jonathan Palma.
           </Col>
         </Row>
       </Container>
