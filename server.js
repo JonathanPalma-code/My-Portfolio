@@ -8,7 +8,7 @@ const cors = require('cors');
 
 require('dotenv').config();
 
-const sendGrid = require('@sendGrid/mail');
+const sendGrid = require('@sendgrid/mail');
 
 const normalizePort = port => parseInt(port, 10);
 const PORT = normalizePort(process.env.PORT || 8080)
