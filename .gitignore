@@ -24,3 +24,5 @@ yarn-error.log*
 
 /portfolio-api/sendgrid.env
 /portfolio-api/node_modules
+
+.env
