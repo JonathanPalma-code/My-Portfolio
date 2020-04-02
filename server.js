@@ -35,7 +35,10 @@ if(!dev) {
     next();
   });
 
-  app.get('*', (req, res) => {
+  // app.get('/', (req, res) => {
+  //   res.redirect('/todo');
+  // })
+  app.get('/', (req, res) => {
     res.sendFile(path.resolve(__dirname, 'build', 'index.html'))
   })
   app.get('/api', (req, res, next) => {
