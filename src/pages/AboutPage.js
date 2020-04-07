@@ -4,13 +4,12 @@ import Hero from '../components/Hero';
 import Content from '../components/Content';
 import jonathanpalma from '../assets/images/jonathanpalma.JPG';
 
-console.log(jonathanpalma);
 function AboutPage(props) {
   return(
     <div className="start">
       <Hero title={props.title} />
       <Content>
-        <p className="p2">My name is Jonathan, I’m Portuguese and I’m a software developer graduated at Makers Academy.</p>
+        <p className="p2">My name is Jonathan, I’m Portuguese and I’m a software developer graduated at <a href="https://makers.tech/">Makers Academy</a>.</p>
 
         <p className="p2">From a very young age, I have been passionate about video games, and I grew tremendously curious about how to build them. At the time, when I asked myself the teenager’s most important question, what do I want to become? The answer came to me as obvious - a software developer! For the following reasons:</p>
         

@@ -59,6 +59,7 @@ code {
 }
 
 .start .Photo {
+  z-index:-1;
   position: absolute;
   background-position: 10%;
   width: 425px;
