@@ -8,10 +8,10 @@ function Footer(){
     <footer className="mt-5">
       <Container fluid={true}>
         <Row className="border-top justify-content-between p-2 footer">
-          <Col className="p-0" md={8}>
-            Copyrights © 2020 International History Students & Historians Group - All rights reserved.
+          <Col className="p-0" md={6}>
+            Copyrights © 2020 - All rights reserved.
           </Col>
-          <Col className="p-0 d-flex justify-content-end footer" md={4}>
+          <Col className="p-0 pr-2 d-flex justify-content-end footer" md={6}>
             <span>
             Developed with <i className='fa fa-heart text-danger'></i> by Jonathan Palma.
             </span>

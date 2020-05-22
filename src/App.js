@@ -45,7 +45,7 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true}>
           
-          <Navbar className="border-bottom" bg="transparent" expand="lg">
+          <Navbar className="border-bottom pr-1" bg="transparent" expand="lg">
             <Navbar.Brand>Jonathan Palma
               <a href="https://www.linkedin.com/in/jonathan-palma-096a65112/">
                 <img className="p-fluid" src={Linkedin} alt="LinkedIn" /></a>

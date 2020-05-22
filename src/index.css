@@ -71,11 +71,12 @@ div.self-img {
 }
 
 img.Photo {
-  padding-top: 46%;
+  padding-top: 25%;
   position: fixed;
   z-index: -1;
-  width: 60%;
+  width: 50%;
   opacity: 0.3;
+  overflow: hidden;
 }
 
 .p-card {
@@ -117,11 +118,13 @@ img.Photo {
   }
 
   img.Photo {
-  padding-top: 33rem;
+  padding-top: 450px;
+  padding-left: 10%;
   position: fixed;
   z-index: -1;
-  width: 100%;
+  width: 980px;
   opacity: 0.3;
+  zoom: 0.6;
   }
 
   .p-card {
