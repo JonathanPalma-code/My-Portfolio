@@ -64,7 +64,7 @@ class ContactPage extends React.Component {
 
   render(){
     return (
-      <div>
+      <div className='container-fluid'>
         <Hero title={this.props.title} />
         <Content>
           <Form onSubmit={this.handleSubmit}>
@@ -80,7 +80,7 @@ class ContactPage extends React.Component {
 
             <Form.Group>
               <Form.Label htmlFor="message">Message</Form.Label>
-              <Form.Control id="message" name="message" as="textarea" rows="3" value={this.state.message} onChange={this.handleChange} />
+              <Form.Control id="message" name="message" as="textarea" rows="8" value={this.state.message} onChange={this.handleChange} />
             </Form.Group>
 
             <Button className="d-inline-block" variant="primary" type="submit" disabled ={this.state.disabled}>
