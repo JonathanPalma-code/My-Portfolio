@@ -12,6 +12,9 @@ import ContactPage from './pages/ContactPage';
 import Linkedin from './assets/images/linkedin.png';
 import GitHub from './assets/images/github.jpeg';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+
 class App extends React.Component {
 
   constructor(props){

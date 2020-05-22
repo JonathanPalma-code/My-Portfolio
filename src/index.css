@@ -12,6 +12,10 @@ code {
     monospace;
 }
 
+.footer {
+  font-size: small;
+}
+
 .p2 {
   line-height: 30px;   
   margin-bottom: 25px;
@@ -93,4 +97,10 @@ code {
   position: relative;
   margin-left: 2%;
   margin-top: -5%;
+}
+
+@media(max-width: 414px) {
+  .footer {
+    font-size: xx-small;
+  }
 }
