@@ -53,10 +53,6 @@ h1.title {
   margin: 0px;
 }
 
-.j-dot:before {
-  content: "• ";
-}
-
 .success-msg {
   color: #57A773;
   padding: 10px 15px;
@@ -127,15 +123,16 @@ img.Photo {
   width: 100%;
   opacity: 0.3;
   }
-}
 
-/* @media(max-width: 414px) {
-
-  img.Photo {
-  padding-top: 33rem;
-  position: fixed;
-  z-index: -1;
-  width: 80%;
-  opacity: 0.3;
+  .p-card {
+  will-change: transform;
+  border: 8px solid transparent;
+  width: 156px;
   }
-} */
+
+  .j-card-image {
+  width: 140px;
+  height: 220px;
+  box-shadow: 0px 0px 3px 1px #ccc;
+  }
+}
