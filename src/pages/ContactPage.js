@@ -64,7 +64,7 @@ class ContactPage extends React.Component {
 
   render(){
     return (
-      <div className='container-fluid'>
+      <div className='container-fluid col-8'>
         <Hero title={this.props.title} />
         <Content>
           <Form onSubmit={this.handleSubmit}>

@@ -48,9 +48,9 @@ class App extends React.Component {
           <Navbar className="border-bottom pr-1" bg="transparent" expand="lg">
             <Navbar.Brand>Jonathan Palma
               <a href="https://www.linkedin.com/in/jonathan-palma-096a65112/">
-                <img className="p-fluid" src={Linkedin} alt="LinkedIn" /></a>
+                <img className="p-link" src={Linkedin} alt="LinkedIn" /></a>
               <a href="https://github.com/JonathanPalma-code/">
-                <img className="p-fluid2" src={GitHub} alt="GitHub" /></a>
+                <img className="p-git" src={GitHub} alt="GitHub" /></a>
             </Navbar.Brand>
 
             <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
