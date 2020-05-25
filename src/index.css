@@ -21,9 +21,8 @@ h1.title {
 }
 
 .p2 {
-  line-height: 30px;   
-  margin-bottom: 25px;
-  text-indent: 50px;
+  line-height: 30px;
+  text-indent: 5%;
   text-align: justify;
   }
 
@@ -68,15 +67,17 @@ div.self-img {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+  overflow: hidden;
 }
 
 img.Photo {
-  padding-top: 25%;
   position: fixed;
   z-index: -1;
-  width: 50%;
+  top:0;
   opacity: 0.3;
-  overflow: hidden;
+  padding-left: 10%;
+  z-index: -1;
+  width: 980px;
 }
 
 .p-card {
@@ -95,7 +96,7 @@ img.Photo {
   position: relative;
   margin-left: 10%;
   margin-top: -5%;
-
+  
 }.p-fluid2 {
   width: 40px;
   height: 35px;
@@ -112,23 +113,17 @@ img.Photo {
   h1 {
     font-size: 4rem !important;
   }
-
+  
   h2 {
     font-size: 2rem !important;
   }
-
   img.Photo {
-  padding-top: 450px;
-  padding-left: 10%;
-  position: fixed;
-  z-index: -1;
-  width: 980px;
-  opacity: 0.3;
-  zoom: 0.6;
+    zoom: 0.6;
   }
-
+  
+  
   .p-card {
-  will-change: transform;
+    will-change: transform;
   border: 8px solid transparent;
   width: 156px;
   }
