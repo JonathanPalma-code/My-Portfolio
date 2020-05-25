@@ -10,7 +10,7 @@ import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import ContactPage from './pages/ContactPage';
 import Linkedin from './assets/images/linkedin.png';
-import GitHub from './assets/images/github.jpeg';
+import GitHub from './assets/images/github.png';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
