@@ -64,10 +64,10 @@ class ContactPage extends React.Component {
 
   render(){
     return (
-      <div className='container-fluid col-8'>
+      <div className='container-fluid'>
         <Hero title={this.props.title} />
         <Content>
-          <Form onSubmit={this.handleSubmit}>
+          <Form onSubmit={this.handleSubmit} className='col-12'>
             <Form.Group>
               <Form.Label htmlFor="full-name">Full Name</Form.Label>
               <Form.Control id="full-name" name="name" type="text" value={this.state.name} onChange={this.handleChange}/>
