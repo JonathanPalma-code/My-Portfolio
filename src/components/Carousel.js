@@ -5,10 +5,11 @@ import Container from 'react-bootstrap/Container';
 import Card from './Card';
 import pp from '../assets/images/pp.png';
 import chess from '../assets/images/chess.png';
+import ihshg from '../assets/images/ihshg.png'
 
 class Carousel extends React.Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       items: [
@@ -27,6 +28,14 @@ class Carousel extends React.Component {
           imgSrc: chess,
           link: 'https://github.com/JonathanPalma-code/Chess-Game',
           selected: false
+        }, 
+        {
+          id: 2,
+          title: 'IHSHG',
+          subTitle: 'A website that gives the possibility to report a Heritage in danger.',
+          imgSrc: ihshg,
+          link: 'https://github.com/JonathanPalma-code/IHSHG-Project',
+          selected: false
         }
       ]
     }
@@ -36,9 +45,9 @@ class Carousel extends React.Component {
     let items = [...this.state.items];
 
     items[id].selected = items[id].selected ? false : true;
-    
+
     items.forEach(item => {
-      if(item.id !== id){
+      if (item.id !== id) {
         item.selected = false;
       }
     });
@@ -54,8 +63,8 @@ class Carousel extends React.Component {
     })
   }
 
-  render(){
-    return(
+  render() {
+    return (
       <Container fluid={true}>
         <Row className="justify-content-around">
           {this.makeItems(this.state.items)}

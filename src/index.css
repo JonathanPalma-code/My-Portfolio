@@ -1,15 +1,12 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 h1.title {
@@ -24,7 +21,7 @@ h1.title {
   line-height: 25px;
   text-indent: 5%;
   text-align: justify;
-  }
+}
 
 .j-card {
   margin: 0px;
@@ -40,6 +37,7 @@ h1.title {
 .j-card-info {
   margin-top: 10px;
   min-height: 100px;
+  width: 300px;
 }
 
 .j-card-title {
@@ -73,7 +71,7 @@ div.self-img {
 img.Photo {
   position: fixed;
   z-index: -1;
-  top:0;
+  top: 0;
   opacity: 0.3;
   padding-left: 10%;
   z-index: -1;
@@ -84,6 +82,8 @@ img.Photo {
   transition: box-shadow 0.5s;
   will-change: transform;
   border: 15px solid white;
+  overflow-wrap: break-word;
+  cursor: pointer;
 }
 
 .p-card:hover {
@@ -95,8 +95,9 @@ img.Photo {
   height: 35px;
   position: relative;
   margin-left: 1rem;
-  
-}.p-git {
+}
+
+.p-git {
   margin-left: 5px;
   width: 35px;
   height: 35px;
@@ -107,28 +108,23 @@ img.Photo {
   .footer {
     font-size: xx-small;
   }
-  
   h1 {
     font-size: 4rem !important;
   }
-  
   h2 {
     font-size: 2rem !important;
   }
   img.Photo {
     zoom: 0.6;
   }
-  
-  
   .p-card {
     will-change: transform;
-  border: 8px solid transparent;
-  width: 156px;
+    border: 8px solid transparent;
+    width: 156px;
   }
-
   .j-card-image {
-  width: 140px;
-  height: 220px;
-  box-shadow: 0px 0px 3px 1px #ccc;
+    width: 140px;
+    height: 220px;
+    box-shadow: 0px 0px 3px 1px #ccc;
   }
 }
