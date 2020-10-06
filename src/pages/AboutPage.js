@@ -5,7 +5,7 @@ import Content from '../components/Content';
 import jonathanpalma from '../assets/images/jonathanpalma.JPG';
 import resumeData from '../resumeData';
 
-function AboutPage(props) {
+const AboutPage = (props) => {
   // const resumeData = props.resumeData
   return(
     <div className="start">
