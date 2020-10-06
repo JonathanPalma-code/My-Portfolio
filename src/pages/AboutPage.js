@@ -8,7 +8,7 @@ import resumeData from '../resumeData';
 const AboutPage = (props) => {
   // const resumeData = props.resumeData
   return(
-    <div className="start">
+    <section id='about'>
       <Hero title={props.title} />
       <Content>
         <div className='self-img'>
@@ -23,7 +23,7 @@ const AboutPage = (props) => {
           </div>
         </div>
       </Content>
-    </div>
+    </section>
   );
 }
 

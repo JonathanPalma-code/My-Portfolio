@@ -64,7 +64,7 @@ class ContactPage extends React.Component {
 
   render(){
     return (
-      <div className='container-fluid'>
+      <section id='contact' className='container-fluid'>
         <Hero title={this.props.title} />
         <Content>
           <Form onSubmit={this.handleSubmit} className='col-12'>
@@ -91,7 +91,7 @@ class ContactPage extends React.Component {
             {this.state.emailSent === false && <p className="d-inline err-msg">Email Not Sent</p>}
           </Form>
         </Content>
-      </div>
+      </section>
     ); 
   }
 }

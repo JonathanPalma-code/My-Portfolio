@@ -9,10 +9,6 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-h1.title {
-  font-display: 6;
-}
-
 .footer {
   font-size: small;
 }
@@ -93,15 +89,11 @@ img.Photo {
 .p-link {
   width: 35px;
   height: 35px;
-  position: relative;
-  margin-left: 1rem;
 }
 
 .p-git {
-  margin-left: 5px;
   width: 35px;
   height: 35px;
-  position: absolute;
 }
 
 @media(max-width: 414px) {
