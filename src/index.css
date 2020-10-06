@@ -13,12 +13,6 @@ code {
   font-size: small;
 }
 
-.p2 {
-  line-height: 25px;
-  text-indent: 5%;
-  text-align: justify;
-}
-
 .j-card {
   margin: 0px;
 }
@@ -94,6 +88,19 @@ img.Photo {
 .p-git {
   width: 35px;
   height: 35px;
+}
+
+.menu {
+  cursor: pointer;
+  color: black;
+  transition: 1s;
+}
+
+.menu:hover {
+  text-decoration: none;
+  text-shadow: 1px 1px 4px #000000;
+  color: black;
+  transition: 1s;
 }
 
 @media(max-width: 414px) {
