@@ -107,4 +107,13 @@ button.sendEmail {
   h2 {
     font-size: 2rem !important;
   }
+  img.Photo {
+    zoom: 0.3;
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    opacity: 0.3;
+    z-index: -1;
+    height: 100%;
+  }
 }
