@@ -15,7 +15,7 @@ const AboutPage = (props) => {
           <img className=" ml-5 Photo" src={jonathanpalma} alt={jonathanpalma}/>
         </div>
         <div className='row'>
-          <div className='container-fluid col-12 col-md-8'>
+          <div className='aboutMe container-fluid col-12 col-md-8'>
             <p>{resumeData.introduction}</p>
             <p>{resumeData.aboutMe}</p>
             <p>{resumeData.goal}</p>

@@ -69,13 +69,11 @@ img.Photo {
 }
 
 .each-slide {
-  height: 50%;
   width: 100%;
-  object-position: center;
 }
 
 .each-slide div img {
-  width: 99%;
+  width: 100%;
 }
 
 button.sendEmail {
@@ -87,14 +85,8 @@ button.sendEmail {
   width: 50%;
 }
 
-@media(max-width: 1024px) {
-  .slide-container {
-    width: 75%;
-  }
-  .each-slide {
-    height: 50%;
-    width: 100%;
-  }
+.aboutMe {
+  text-align: justify;
 }
 
 @media(max-width: 414px) {
@@ -107,13 +99,7 @@ button.sendEmail {
   h2 {
     font-size: 2rem !important;
   }
-  img.Photo {
-    zoom: 0.3;
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    opacity: 0.3;
-    z-index: -1;
-    height: 100%;
+  .slide-container {
+    width: 100%;
   }
 }

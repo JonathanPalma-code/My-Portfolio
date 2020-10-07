@@ -12,7 +12,7 @@ const properties = {
   transitionDuration: 500,
   infinite: true,
   indicators: true,
-  arrows: true,
+  arrows: false,
   scale: 1.4
 }
 
