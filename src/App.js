@@ -2,10 +2,11 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import './App.css';
 
+import NavBar from './components/NavBar';
 import Footer from './components/Footer';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
-import ContactPage from './pages/ContactPage';
+import Home from './sections/Home';
+import About from './sections/About';
+import Contact from './sections/Contact';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
@@ -38,9 +39,10 @@ class App extends React.Component {
   render() {
     return (
       <Container className="p-0" fluid={true}>
-        <HomePage title={this.state.home.title} subTitle={this.state.home.subTitle} bodyText={this.state.home.bodyText} />
-        <AboutPage title={this.state.about.title} />
-        <ContactPage title={this.state.contact.title} />
+        <NavBar />
+        <Home title={this.state.home.title} subTitle={this.state.home.subTitle} bodyText={this.state.home.bodyText} />
+        <About title={this.state.about.title} />
+        <Contact title={this.state.contact.title} />
         <Footer />
       </Container>
     );

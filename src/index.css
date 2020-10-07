@@ -103,6 +103,40 @@ img.Photo {
   transition: 1s;
 }
 
+.slide-container {
+  width: 40%;
+  margin: auto;
+}
+
+.each-slide {
+  height: 50%;
+  width: 100%;
+  object-position: center;
+}
+
+.each-slide div img {
+  width: 99%;
+}
+
+button.sendEmail {
+  outline: none !important;
+  border-radius: 25px !important;
+  background-color: black;
+  color: aliceblue;
+  padding: 8px;
+  width: 50%;
+}
+
+@media(max-width: 1024px) {
+  .slide-container {
+    width: 75%;
+  }
+  .each-slide {
+    height: 50%;
+    width: 100%;
+  }
+}
+
 @media(max-width: 414px) {
   .footer {
     font-size: xx-small;
@@ -112,9 +146,6 @@ img.Photo {
   }
   h2 {
     font-size: 2rem !important;
-  }
-  img.Photo {
-    zoom: 0.6;
   }
   .p-card {
     will-change: transform;
